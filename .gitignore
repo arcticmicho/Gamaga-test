@@ -2,7 +2,6 @@ gamaga-test-repo/[Ll]ibrary/
 gamaga-test-repo/[Tt]emp/
 gamaga-test-repo/[Oo]bj/
 gamaga-test-repo/[Bb]uild/
-gamaga-test-repo/[Bb]uilds/
 /Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
@@ -30,5 +29,3 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
-*.unitypackage
