@@ -1,0 +1,35 @@
+Release Notes
+
+Bugs:
+
+Character controller no ejecuta bien el calculo de sus colisiones. Por ende al colisionar con una muralla cree que esta tocando terreno, por ende el salto puede presentar problemas.
+Animación de salto se interrumple. Para esto es mucho mejor hacer un Sprite Animator, lamentablemente no alcance a hacerlo ya que no lo considere una prioridad.
+
+Nice to have:
+
+Faltó implementar Parallax para los elementos del fondo (los cuales tampoco coloque por la misma razon).
+Faltó animaciones para las distintas pantallas de UI.
+Faltó efectos para los proyectiles, objetos comestibles y el objeto para pasar de nivel.
+
+Faltó pulir los controles para moviles. Quizas agregar un boton para saltar. La implementación ideal hubiera sido un simulador de un control.
+Faltó un AudioManager, no lo considere prioridad.
+
+Faltó agregar Pooling a los Views del UIManager.
+Faltó agregar pooling a los proyectiles del juego.
+
+Instrucciones de Configuración:
+
+El juego, despues de superar el Nivel 3, comienza desde 0.
+
+Todos los Parametros del juego se encuentran en el ScriptableObject GameResources. Allí se podran encontrar los distintos Scriptable Objects que poseen la información configurable.
+El mismo ScriptableObject posee un boton para resetear los valores a los definidos por defecto en el codigo (No actualiza las referencias a otros prefabs, solo primitivas).
+
+Librerias Usadas:
+
+InputManager, importado desde repositorio (https://github.com/arcticmicho/ludum-dare-38). 
+
+Assets:
+
+Los assets fueron importados desde un antiguo proyecto realizado con un equipo (https://jumbitoysusamigos.cl/game/) . La propiedad intelectual de los assets es del equipo desarrollador por ende no existe problemas
+al utilizarlos.
+Los assets se encuentran en https://gitlab.com/ZoserLock/jumbito-revenge . El cual es un repositorio privado, en caso de necesitar acceso para corroborar la información, favor de solicitar.

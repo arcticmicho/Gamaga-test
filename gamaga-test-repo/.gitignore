@@ -1,8 +1,8 @@
-gamaga-test-repo/[Ll]ibrary/
-gamaga-test-repo/[Tt]emp/
-gamaga-test-repo/[Oo]bj/
-gamaga-test-repo/[Bb]uild/
-gamaga-test-repo/[Bb]uilds/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
 /Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
